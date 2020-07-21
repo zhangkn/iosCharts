@@ -97,3 +97,14 @@ Refer to the Example Or Click the link below
 ORCharts is available under the MIT license. See the LICENSE file for more info.
 
 ### [中文简书](https://www.jianshu.com/p/6f65bf7dfbbf)
+
+
+#  pod trunk push
+
+kngit 0.0.2
+git tag -a 0.0.2 -m "0.0.2"
+git push origin --tags
+
+
+pod lib lint KNCharts.podspec --allow-warnings
+pod trunk push  KNCharts.podspec --allow-warnings
