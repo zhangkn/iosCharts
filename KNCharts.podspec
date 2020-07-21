@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KNCharts'
-  s.version          = '2.1.10'
+  s.version          = '2.1.11'
   s.summary          = 'A lightweight, easy-to-use lightweight library of charts, including ring, pie, pie, line, and graph'
 
 # This description is used to generate tags and improve search results.

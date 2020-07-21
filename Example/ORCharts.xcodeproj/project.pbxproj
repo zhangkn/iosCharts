@@ -43,7 +43,7 @@
 		08B3D0931BEADB0D872E24DE /* Pods_ORCharts_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ORCharts_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF8A334FA082B880AF3F9CA /* Pods-ORCharts_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCharts_Tests.release.xcconfig"; path = "Target Support Files/Pods-ORCharts_Tests/Pods-ORCharts_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2148E5AA6007CB0EF36E9958 /* Pods-ORCharts_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ORCharts_Example.release.xcconfig"; path = "Target Support Files/Pods-ORCharts_Example/Pods-ORCharts_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E09BAC07881ABC400C13EC8 /* ORCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ORCharts.podspec; path = ../ORCharts.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E09BAC07881ABC400C13EC8 /* KNCharts.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KNCharts.podspec; path = ../KNCharts.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D24656A22DAE953008C7DC4 /* ORLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORLineViewController.h; sourceTree = "<group>"; };
 		4D24656B22DAE953008C7DC4 /* ORLineMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineMoreViewController.m; sourceTree = "<group>"; };
 		4D24656C22DAE953008C7DC4 /* ORLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORLineViewController.m; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				2E09BAC07881ABC400C13EC8 /* ORCharts.podspec */,
+				2E09BAC07881ABC400C13EC8 /* KNCharts.podspec */,
 				A267DAA113F2828FB9C0D16E /* README.md */,
 				85CBC59FDA69D8E87BDF5115 /* LICENSE */,
 			);
