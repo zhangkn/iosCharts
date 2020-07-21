@@ -89,7 +89,10 @@
 
 - (NSAttributedString *)chartView:(ORLineChartView *)chartView attributedStringForIndicaterAtIndex:(NSInteger)index {
     NSAttributedString *string = [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"value: %g", [_datas[index] doubleValue]]];
-    return string;
+    
+    
+    
+    return [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@",@"2016-07-12\n54"]];;
 }
 
 - (NSDictionary<NSAttributedStringKey,id> *)labelAttrbutesForVerticalOfChartView:(ORLineChartView *)chartView {
