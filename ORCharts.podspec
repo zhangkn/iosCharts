@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ORCharts'
-  s.version          = '2.1.8'
+  s.version          = '2.1.9'
   s.summary          = 'A lightweight, easy-to-use lightweight library of charts, including ring, pie, pie, line, and graph'
 
 # This description is used to generate tags and improve search results.
@@ -20,12 +20,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 TODO: A lightweight, easy-to-use lightweight library of charts, including ring, pie, pie, line, and graph
                        DESC
-
-  s.homepage         = 'https://github.com/SunriseOYR/ORCharts'
+#https://github.com/zhangkn/iosCharts
+  s.homepage         = 'https://github.com/zhangkn/iosCharts'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Oranges and lemons' => 'sunrise_oy@163.com' }
-  s.source           = { :git => 'https://github.com/SunriseOYR/ORCharts.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zhangkn/iosCharts.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
